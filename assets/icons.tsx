@@ -26,6 +26,14 @@ export const GreenTickIcon = () => (
   </svg>
 );
 
+export const ErrorIcon = () => (
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="14" cy="14" r="12.5" stroke="#EB5757" strokeWidth="3" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M8.45677 8.46042C9.04255 7.87463 9.96514 7.84747 10.5174 8.39975L19.8311 17.7135C20.3834 18.2657 20.3563 19.1883 19.7705 19.7741C19.1847 20.3599 18.2621 20.3871 17.7098 19.8348L8.39611 10.5211C7.84382 9.96879 7.87098 9.0462 8.45677 8.46042Z" fill="#EB5757" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M8.45748 19.7714C7.87169 19.1857 7.84454 18.2631 8.39682 17.7108L17.7105 8.39708C18.2628 7.8448 19.1854 7.87196 19.7712 8.45774C20.357 9.04353 20.3841 9.96612 19.8318 10.5184L10.5181 19.8321C9.96586 20.3844 9.04327 20.3572 8.45748 19.7714Z" fill="#EB5757" />
+  </svg>
+);
+
 export const LeftArrowIcon = () => (
   <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M15 2.83L12.1376 0L0 12L12.1376 24L15 21.17L5.72488 12L15 2.83Z" fill="#FFC800" />
